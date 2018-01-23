@@ -3,6 +3,7 @@
 ## Table of Contents
 
 * [Streamlined Request Validation](#streamlined-request-validation)
+* [Fresh Migrations](#fresh-migrations)
 
 ## Streamlined Request Validation
 
@@ -17,4 +18,12 @@
 
     return 'Done';
 ...
+```
+
+## Fresh Migrations
+
+> Dropped all tables
+
+```bash
+php artisan migrate:fresh
 ```
