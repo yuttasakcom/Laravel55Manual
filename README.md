@@ -14,6 +14,7 @@
     ]);
 
     \App\Post::forceCreate($post);
+
     return 'Done';
 ...
 ```
