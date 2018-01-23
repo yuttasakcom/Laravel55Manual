@@ -44,8 +44,8 @@ php artisan preset none|bootstrap|vue|react
             "App\\Providers\\YourServiceProvider"
         ],
         "alias": {
-        "YourAlias": "App\\Facades\\YourFacade"
-    }
+            "YourAlias": "App\\Facades\\YourFacade"
+        }
     }
 }
 ...
