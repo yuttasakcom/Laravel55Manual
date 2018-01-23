@@ -5,6 +5,7 @@
 * [Streamlined Request Validation](#streamlined-request-validation)
 * [Fresh Migrations](#fresh-migrations)
 * [Frontend Presets](#frontend-presets)
+* [Automatic Package Discovery](#automatic-package-discovery)
 
 ## Streamlined Request Validation
 
@@ -31,4 +32,21 @@ php artisan migrate:fresh
 
 ```bash
 php artisan preset none|bootstrap|vue|react
+```
+
+## Automatic Package Discovery
+
+```json
+...
+"extra": {
+    "laravel": {
+        "providers": [
+            "App\\Providers\\YourServiceProvider"
+        ]
+    },
+    "alias": {
+        "YourAlias": "App\\Facades\\YourFacade"
+    }
+}
+...
 ```
