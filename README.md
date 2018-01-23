@@ -4,6 +4,7 @@
 
 * [Streamlined Request Validation](#streamlined-request-validation)
 * [Fresh Migrations](#fresh-migrations)
+* [Frontend Presets](#frontend-presets)
 
 ## Streamlined Request Validation
 
@@ -22,8 +23,12 @@
 
 ## Fresh Migrations
 
-> Dropped all tables
-
 ```bash
 php artisan migrate:fresh
+```
+
+## Frontend Presets
+
+```bash
+php artisan preset none|bootstrap|vue|react
 ```
