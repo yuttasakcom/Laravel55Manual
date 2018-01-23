@@ -42,10 +42,10 @@ php artisan preset none|bootstrap|vue|react
     "laravel": {
         "providers": [
             "App\\Providers\\YourServiceProvider"
-        ]
-    },
-    "alias": {
+        ],
+        "alias": {
         "YourAlias": "App\\Facades\\YourFacade"
+    }
     }
 }
 ...
