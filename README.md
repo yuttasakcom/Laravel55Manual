@@ -5,6 +5,8 @@
 ## Table of Contents
 
 * [การติดตั้ง laravel](#installation)
+* Testing
+  * [Database Tests](#database-tests)
 * [Streamlined Request Validation](#streamlined-request-validation)
 * [Fresh Migrations](#fresh-migrations)
 * [Frontend Presets](#frontend-presets)
@@ -16,6 +18,24 @@
 # การติดตั้ง Laravel ทำได้หลายวิธี แต่วิธีที่ขอแนะนำคือติดตั้งผ่าน composer
 # คำสั่งติดตั้ง Laravel ผ่าน composer /** ต้องทำการติดตั้ง composer ก่อน (https://getcomposer.org/download/) **/
 composer create-project --prefer-dist laravel/laravel your-name-prorject
+```
+
+## Database Tests
+
+```
+# คำสั่งสำหรับสร้าง unit test
+php artisan make:test Models/Post --unit
+```
+
+```php
+public function testDatabase()
+{
+    // Make call to application...
+
+    $this->assertDatabaseHas('posts', [
+        'title' => 'post title'
+    ]);
+}
 ```
 
 ## Streamlined Request Validation
