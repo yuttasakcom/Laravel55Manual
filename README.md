@@ -14,7 +14,7 @@
 
 ```
 # การติดตั้ง Laravel ทำได้หลายวิธี แต่วิธีที่ขอแนะนำคือติดตั้งผ่าน composer
-# คำสั่งติดตั้ง Laravel ผ่าน composer
+# คำสั่งติดตั้ง Laravel ผ่าน composer /** ต้องทำการติดตั้ง composer (https://getcomposer.org/download/) ก่อน **/
 composer create-project --prefer-dist laravel/laravel your-name-prorject
 ```
 
