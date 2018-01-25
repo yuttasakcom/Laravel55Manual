@@ -6,7 +6,7 @@
 
 * [การติดตั้ง laravel](#installation)
 * [Testing](#testing)
-  * [Database Tests](##database-tests)
+  * [Database Tests](#database-tests)
 * [Streamlined Request Validation](#streamlined-request-validation)
 * [Fresh Migrations](#fresh-migrations)
 * [Frontend Presets](#frontend-presets)
