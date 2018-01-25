@@ -1,11 +1,22 @@
 # Laravel 5.5.\* Manual
 
+> Full Stack PHP Framework
+
 ## Table of Contents
 
+* [การติดตั้ง laravel](#installation)
 * [Streamlined Request Validation](#streamlined-request-validation)
 * [Fresh Migrations](#fresh-migrations)
 * [Frontend Presets](#frontend-presets)
 * [Automatic Package Discovery](#automatic-package-discovery)
+
+## Installation
+
+```
+# การติดตั้ง Laravel ทำได้หลายวิธี แต่ทางเลือกที่น่าจะดีที่สุดคือติดตั้งผ่าน composer
+# คำสั่งติดตั้ง Laravel ผ่าน composer
+composer create-project --prefer-dist laravel/laravel your-name-prorject
+```
 
 ## Streamlined Request Validation
 
