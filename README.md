@@ -26,7 +26,7 @@ composer create-project --prefer-dist laravel/laravel your-name-prorject
 
 ```
 # คำสั่งสำหรับสร้าง unit test
-php artisan make:test Models/Post --unit
+php artisan make:test Models/PostTest --unit
 ```
 
 ```php
