@@ -5,8 +5,8 @@
 ## Table of Contents
 
 * [การติดตั้ง laravel](#installation)
-* Testing
-  * [Database Tests](#database-tests)
+* [Testing](#testing)
+  * [Database Tests](##database-tests)
 * [Streamlined Request Validation](#streamlined-request-validation)
 * [Fresh Migrations](#fresh-migrations)
 * [Frontend Presets](#frontend-presets)
@@ -20,7 +20,9 @@
 composer create-project --prefer-dist laravel/laravel your-name-prorject
 ```
 
-## Database Tests
+## Testing
+
+### Database Tests
 
 ```
 # คำสั่งสำหรับสร้าง unit test
